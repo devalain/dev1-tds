@@ -29,5 +29,5 @@ public class Exercice06 {
         }
         
     }
-}}        //Il faut absolument régler le problème de mise en page (accolade etc)
+}}        //à corriger : 3 3 2
 

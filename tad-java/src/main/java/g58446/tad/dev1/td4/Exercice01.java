@@ -14,7 +14,12 @@ public class Exercice01 {
         Scanner clavier = new Scanner(System.in);
         System.out.println("Entrez un nombre entier n: ");
         int n = clavier.nextInt();
+        System.out.println(n);
         
-        while ()
+        
+        while (n != 1) {
+            
+        }
+            
     }
 }

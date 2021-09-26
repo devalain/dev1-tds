@@ -16,10 +16,10 @@ public class Exercice03 {
         int nombre1 = clavier.nextInt();
         System.out.println("Entrez encore un nombre:");
         int nombre2 = clavier.nextInt();
-        if (nombre1 > nombre2)
+        if (nombre1 > nombre2){
             System.out.println("Le nombre le plus grand est " + nombre1);
-        else                                                                    // }else{ et pourtant ça marche
-            System.out.println("Le nombre le plus grand est " + nombre2);       // Encore une fois, vérifier la "mise en page"
-        
+        }else{                                                                   
+            System.out.println("Le nombre le plus grand est " + nombre2);       
+        }
     }
 }
