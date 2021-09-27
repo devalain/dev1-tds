@@ -7,15 +7,15 @@ package g58446.tad.dev1.td4;
 
 /**
  *
- * @author Ced
+ * @author unknown
  */
 public class Boucle {
-    
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
         int i = 1;
-        while(i<=10) {
+        while (i <= 10) {
             System.out.println(i);
-            i = i+1;
+            i = i + 1;
         }
     }
 }
