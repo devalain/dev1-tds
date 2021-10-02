@@ -7,7 +7,7 @@ package g58446.tad.dev1.td3;
 import  java.util.Scanner;
 /**
  *
- * @author Ced
+ * @author g58446
  */
 public class Exercice06 {
     public static void main(String[] args) {
@@ -29,5 +29,5 @@ public class Exercice06 {
         }
         
     }
-}}        //à corriger : 3 3 2
+}}        //à corriger : 3 3 2  -----> je réessaierai avec des <= ou >=
 
