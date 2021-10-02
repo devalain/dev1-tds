@@ -19,15 +19,15 @@ public class Exercice06 {
         System.out.println("Entrez un troisième nombre:");
         double n3 = clavier.nextDouble();
         
-        if (n1>n2&&n1>n3) {
+        if (n1>=n2&&n1>=n3) {
             System.out.println("Le plus grand est " + n1);
         }else{
-            if(n2>n1&&n2>n3){
+            if(n2>=n1&&n2>=n3){
                 System.out.println("Le plus grand est " + n2);
         }else{
                 System.out.println("Le plus grand est " + n3);
         }
         
     }
-}}        //à corriger : 3 3 2  -----> je réessaierai avec des <= ou >=
+}}        
 

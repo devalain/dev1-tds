@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * 
+ * HE2B-ESI (2021-2022)
+ * 
  */
 package g58446.dev1.td3;
 import java.util.Scanner;

@@ -7,7 +7,7 @@ package g58446.dev1.td3;
 
 /**
  *
- * @author Ced
+ * @author g58446
  */
 public class Exercice08 {
     public static void main(String[] args) {
