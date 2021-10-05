@@ -43,3 +43,27 @@ Enfin, il ne reste plus qu'à uploader ta nouvelle version sur ton serveur
 ```bash
 git push
 ```
+
+## Oublié de `pull` ?
+
+Que faire si tu as oublié de faire un `git pull` avant de commencer à 
+travailer sur ta branche locale ? Tu peux faire un 
+
+```bash
+git stash
+```
+
+ce qui aurra pour effet de "mettre de côté tes changements", puis 
+
+```bash
+git pull
+```
+
+ce qui synchronisera ta branche locale avec ta branche distante et
+
+```bash
+git stash pop
+```
+
+ce qui réappliquera tes changements "mis de côté" sur ta branche locale 
+qui est à présent à jour.
