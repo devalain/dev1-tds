@@ -17,8 +17,9 @@ public class Exercice11 {
                 + " par -1(valeur sentinelle): ");
         int valeur = clavier.nextInt();
         int précédent;
-        final int sentinelle = -1;  // valeur définitive
-        boolean sérieEstStrictementCroissante = true;  // boolean pas encore vu
+        final int sentinelle = -1;
+        boolean sérieEstStrictementCroissante = true;
+        
         while (valeur > sentinelle) {
             précédent = valeur;
             System.out.println("entrez une nouvelle valeur: ");
@@ -35,6 +36,3 @@ public class Exercice11 {
         }
     }
 }
-
-
-//
